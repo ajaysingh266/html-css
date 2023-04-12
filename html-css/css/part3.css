@@ -1,0 +1,70 @@
+body{
+    background-color: blueviolet;
+}
+.a-ajay{
+    color: chartreuse;
+    text-decoration: underline;
+    
+}
+h2{
+    color: crimson;
+    background-color: aquamarine;
+    width: 25%;
+    margin: 10px 50px 80px 100px; 
+    text-align: center;
+    text-decoration: line-through;
+    border: 20px solid rgb(175, 7, 7);
+    padding: 50px;
+}
+.q-ajay{
+    border-color: azure;
+    border-width: thick;
+    border-style: solid;
+    width: fit-content;
+}
+#first{
+    background-color: aliceblue;
+    width: fit-content;
+    text-decoration: underline;
+    text-decoration: line-through;
+}
+.divtable{
+    border-width: thick;
+    border-style: dotted;
+    background-color: brown;
+    width: 300;
+}
+.col2{
+    float: right;
+    background-color: beige;
+}
+
+.col4{
+    float: right;
+    background-color: chartreuse;
+}
+.firstclass{
+    background-color: crimson;
+    width: fit-content;
+    color: aliceblue;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.p1{
+    font-size: 25px;
+    
+}
+
+.p2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.wajay{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:rgb(135, 81, 6);
+    background-color: aliceblue;
+    width: 50%;
+}

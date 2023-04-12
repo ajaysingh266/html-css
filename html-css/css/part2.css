@@ -1,0 +1,37 @@
+body{
+    background-image: url(https://www.tourmyindia.com/hill_stations/images/hills-station-india.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    color: azure;
+}
+
+
+.bg-white{
+    background-color: bisque;
+    width: fit-content;
+
+    border: 1;
+
+}
+.bg-grey{
+    background-color: yellow;
+   
+}
+.b-ajay{
+    background-color: white;
+    width: fit-content;
+}
+.a-ajay{
+    background-color: aliceblue;
+    width: fit-content;
+}
+.d-ajay{
+    background-color: blueviolet;
+    width: fit-content;
+}
+.s-ajay{
+    color: rgb(100, 50, 100);
+}

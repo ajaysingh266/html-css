@@ -1,0 +1,193 @@
+body {
+   
+    margin: 0;
+    --tw-bg-opacity: 1;
+    background-color: rgb(241 243 245/var(--tw-bg-opacity));
+}
+
+
+.header {
+    background-color: white;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 5px;
+}
+
+.circle {
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.bg-pink {
+    background-color: deeppink;
+}
+
+.text-white {
+    color: white;
+}
+
+.square {
+    height: 2rem;
+    width: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.right-menu,
+.left-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-text {
+    font-weight: 600;
+    color: deeppink;
+}
+
+.ml-2 {
+    margin-left: 1.5rem;
+}
+
+.styledInput {
+   
+    border-radius: 9999px;
+    padding: 0.1rem 0.75rem;
+    background-color: rgb(241 245 249);
+    
+}
+.styledInput input{
+    width: 10rem;
+    height: 1.5rem;
+    background-color: rgb(241 245 249);
+    border: 0;
+}
+
+.styledInput:focus-visible {
+    outline: 0;
+}
+.subheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px 15px;
+    padding: 0 1rem;
+}
+.grid >div> div{
+    background-color: white;
+    /* box-shadow: 0 0 1.5rem #e2e8f0;  */
+    padding: 0.2rem;
+    border-radius: 10%;
+    margin-top: 0.7rem;
+}
+.copy{
+    padding:0.5rem;
+    border-radius: 999px;
+    color: rgb(138, 43, 226) !important;
+    background-color: #8a2be244;
+    
+}
+.illus{
+    padding:0.5rem;
+    border-radius: 999px;
+    color: rgb(234, 107, 109) ;
+    background-color: #EA6B6D44 !important;
+}
+.ui-design{
+    padding:0.5rem;
+    
+    border-radius: 999px;
+
+    color: rgb(147, 226, 43) !important;
+    background-color: #93E22B44;
+
+}
+#ill{
+    /* background-color: rgb(99, 171, 235); */
+    
+    align-items: center;
+    
+    
+}
+.text-black{
+    color: rgb(241, 120, 140);
+}
+.image{
+    display: flex;
+    margin-left: 3px;
+    padding: 1rem;
+   
+}
+.bg-red{
+    border: 0.2px dashed rgb(225, 123, 161);
+    background-color: white;
+}
+.f1{
+    display: flex;
+    justify-content: space-between;
+}
+.f2{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.ellipsis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    
+    
+}
+.fa-ellipsis{
+    color: #a19c9c;
+}
+
+.copy-ell{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+    
+}
+.flag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #a19c9c;
+   
+}
+.message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+   color: #a19c9c;
+    /* text-shadow: 1px 1px 1px #ccc; */
+    
+}
+.fa-flag{
+    font-size: 0.73em;
+    margin-right: 0.3rem;
+}
+.fa-message{
+    font-size: 00.73em;
+    margin-right: 0.3rem;
+    margin-left: 0.5rem;
+}
+.fa-link{
+    font-size: 00.73em;
+    margin-right: 0.3rem;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Project</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    Hello
+</body>
+<script type="text/javascript">
+    //     var x= 0;
+    // var y=1;
+    // var z;
+
+    // document.write(x);
+
+    // while(y<30){ 
+    //     document.write("<div>");
+    //     document.write(y ) ; 
+    //     document.write("</div>");
+    //     z=x+y;
+    //              x=y;
+    //              y=z;
+    //            }
+
+    function Fib(num) {
+        if (num < 2) {
+            return num;
+        }
+        else{
+            return Fib(num-1) + Fib(num-2);
+        }
+        }
+        var num = prompt('enter the value');
+
+        if (num<=0) {
+            document.write("enter a positive value");
+            
+        }
+    else{
+        for (let i = 0; i < num; i++ ) {
+            document.write(Fib(i));
+            
+            
+        }
+    }
+    
+</script>
+
+</html>

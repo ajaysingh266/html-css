@@ -1,0 +1,468 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid #0a0909; */
+    /* border-radius: 5%; */
+    display: flex;
+    
+}
+.contain-1{
+    flex: 1;
+    
+    border: 0.5px solid white;
+    
+    /* border-radius: 5%; */
+    padding-left: 20px;
+
+}
+.contain-2{
+    flex: 4 ;
+    border: 0.5px solid white;
+    
+   
+    /* align-items: center; */
+    /* border-radius: 5%; */
+   }
+.right-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    
+}
+   .fa-circle{
+       padding: 0.5rem;
+       margin: 0.5rem;       
+   }
+.ml2{
+    margin-left: 2.5rem;
+}
+.daily{
+    margin-top: 2rem;
+    color: rgb(144, 143, 143);
+}
+.fa-arrows-to-dot{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: white
+}
+.button{
+    display: flex;
+    width: 75%;
+    height: 30px;
+       background-color: blue;
+    color: white;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 13%;
+}
+.fa-person{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: rgb(140, 140, 140);
+}
+.fa-people-group{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: rgb(140, 140, 140);
+}
+.fa-dollar-sign{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: rgb(140, 140, 140);
+
+}
+.others{
+    margin-top: 2rem;
+    color: rgb(140, 140, 140);
+}
+.fa-cube{padding: 0.5rem;
+    margin: 0.5rem;
+    color: rgb(140, 140, 140);
+
+}
+.fa-house{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: rgb(140, 140, 140);
+}
+.fa-sack-xmark{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: rgb(140, 140, 140);
+
+}
+.fa-gear{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: rgb(140, 140, 140);
+
+}
+.fa-arrow-right-to-bracket{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: rgb(140, 140, 140);
+}
+.over{
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 40px;
+}
+
+.ml-4 {
+    margin-left: 1.5rem;
+}
+
+.styledInput {
+   
+    border-radius: 9999px;
+    padding: 0.1rem 0.75rem;
+    background-color: rgb(241 245 249);
+    margin-left: 500px;
+}
+.styledInput input{
+    width: 10rem;
+    height: 1.5rem;
+    background-color: rgb(241 245 249);
+    border: 0;
+}
+
+.styledInput:focus-visible {
+    outline: 0;
+}
+ .emp-team-proj{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    margin-left: 60px;  
+    margin-top: 2rem; 
+    grid-column-gap: 50px;
+    
+}
+.em-ta{
+    background-color: white;
+    border-radius: 10%;
+    /* margin: 10px; */
+}
+.emp{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.circle {
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.bg-grey {
+    background-color: rgb(231, 236, 248);
+    
+}
+
+.text-blue {
+    color: rgb(30, 1, 214);
+}
+
+.square {
+    height: 2rem;
+    width: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+.eight{
+    font-size: 20px;
+    font-weight: bold;
+}
+.img-emp{
+    display: flex;
+       padding: 8px;
+}
+.img1{
+    margin-right: -7px;
+}
+.img2{
+    margin-right: -7px;
+}
+.img3{
+    margin-right: -7px;
+}
+.img4{
+    margin-right: -7px;
+}
+.img5{
+    margin-right: -7px;
+}
+.team{
+    background-color: white;
+    border-radius: 10%;
+    /* margin: 10px; */
+}
+.tea{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.icon-team{
+    display: flex;
+    padding: 8px;
+}
+.i-con1
+{
+    
+    background-color: rgb(225, 238, 213);
+    margin-right: -10px;
+}
+.i-context{
+    color: rgb(90, 169, 21);
+}
+.i-con2
+{
+    
+    background-color: rgb(209, 239, 243);
+    
+    margin-right: -10px;
+}
+.i-cont2{
+    color: rgb(20, 177, 194);
+}
+.i-con3
+{
+   
+    background-color: rgb(243, 219, 245);
+    
+    margin-right: -10px;
+}
+.i-cont3{
+    color: rgb(225, 64, 236);
+}
+.i-con4
+{
+        background-color: rgb(228, 218, 242);
+        margin-right: -10px;
+}
+.i-cont4{
+    color: rgb(120, 39, 234);
+}
+.proj{
+    background-color: white;
+    border-radius: 10%;
+    /* margin: 10px; */
+}
+.pro{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.icon-project{
+    display: flex;
+    padding: 8px;
+}
+.i-pro1
+{
+        background-color: rgb(237, 215, 242);
+        margin-right: -7px;
+}
+.i-proj{
+    color: rgb(143, 8, 173);
+}
+.i-pro2
+{
+       background-color: rgb(240, 226, 203);
+        margin-right: -7px;
+}
+.i-proj2{
+    color: rgb(183, 115, 5); 
+}
+.i-pro3
+{
+        background-color: rgb(199, 216, 243);
+        margin-right: -7px;
+}
+.i-proj3{
+    color: rgb(12, 80, 181);
+}
+.i-pro4
+{
+        background-color: rgb(242, 241, 209);
+        margin-right: -7px;
+}
+.i-proj4{
+    color: rgb(174, 168, 8);
+}
+.i-pro5
+{
+    background-color: rgb(212, 245, 210);
+    }
+.i-proj5{
+    color: rgb(22, 138, 14);
+}    
+.lower-frame{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-column-gap: 50px;
+margin: 15px;
+}
+
+.doc{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+.stan{
+    color: rgb(148, 145, 145);
+    margin-top: -30px;
+}
+.hist{
+    font-size: 20px;
+}
+.track{
+    color: rgb(148, 145, 145);
+    margin-top: -30px;
+}
+.c-guide{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 8px;
+        border-bottom: 0.5px solid rgb(219, 219, 219);
+}
+.cust{
+    display: flex;
+   
+    
+}
+.t-rec{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 8px;
+    /* margin-top: -7px; */
+    border-bottom: 0.2px solid rgb(219, 219, 219);
+}
+.twit{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.p-data{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 8px;
+    border-bottom: 0.2px solid rgb(219, 219, 219);
+}
+.pers{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.m-book{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 8px;
+}
+.book{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.ama{
+    display: flex;
+    background-color: white;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 0.2px solid rgb(219, 219, 219);
+}
+.park{
+       display: flex;
+        background-color: white;
+        padding: 8px;
+        align-items: center;
+        justify-content: space-evenly;
+        border-bottom: 0.2px solid rgb(219, 219, 219);
+   
+}
+.sinta{
+    display: flex;
+    background-color: white;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 0.2px solid rgb(219, 219, 219);
+}
+.putu{
+    display: flex;
+    background-color: white;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+.promo{
+    font-size: small;
+    padding-top: 7px;
+    padding-left: 10px;
+    color: rgb(173, 171, 171);
+}
+.custo{
+    font-size: 15px;
+    padding-left: 10px;
+    
+}
+.bg-pin{
+        background-color: rgb(250, 213, 213);
+    }
+.text-pin{
+    color: rgb(235, 68, 68);
+}
+.bg-orange{
+        background-color: rgb(248, 232, 213);
+    }
+.text-or{
+    color: rgb(231, 136, 20);
+    
+}
+.bg-sky{
+    
+    background-color: rgb(217, 240, 246);
+    
+}
+.text-sky{
+    color:rgb(4, 143, 181) ;
+}
+.bg-purple{
+   
+    background-color: rgb(228, 203, 245);  
+ }
+.text-purple{
+    color: blueviolet;
+}
+.fa-down{
+    
+    background-color: rgb(241, 230, 247);
+}
+   
+.fa-text{
+    color: rgb(171, 91, 225);
+}
+.doc-col{
+    padding-left: 40px;
+    border-radius: 20%;
+}
+.fa-bell{
+    padding-right: 65px;
+}
+.his-col{
+    padding-right: 65px;
+    
+}

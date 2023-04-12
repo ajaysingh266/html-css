@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body onload="showTime()">
+    <!-- <input type="text" name="name" placeholder="Enter Name" id="name" />
+    <button onclick="greet()">Greet</button>
+    <div class="greet">
+
+    </div> -->
+
+    <h1></h1>
+</body>
+<script type="text/javascript">
+        // function greet(){
+        //     var name = document.getElementById('name').value;
+        //     var string = " Hello "+name;
+        //     document.getElementsByClassName('greet')[0].innerHTML= string;
+
+        // }
+
+        
+
+        //     var num= prompt('Enter a value');
+        //     for ( var i=1; i<=10;  i++)
+        //     {
+        //         // document.write("<div>");
+        //         document.write(num + " x " + i + " = " + i*num + "<br/>");
+        //         // document.write("</div>");
+        //     }
+
+        // var row = prompt("Enter a value", "" );
+
+        // printpattern(row);
+
+        // function printpattern(row) {
+        //     for (var i = 1; i <= row; i++)
+        //     {
+        //         for(var j = 1; j <= i; j++)
+        //         {
+        //             document.write("*");
+        //         }
+        //         document.write(i + "<br/>");
+        //     }
+
+        //     for (var i = row; i >= 1; i--)
+        //     {
+        //         for(var j = 1; j <= i; j++)
+        //         {
+        //             document.write("*");
+        //         }
+        //         document.write(i + "<br/>");
+        //     }
+        // }
+        
+        
+
+        
+function showTime() {
+    var d= new Date();
+    var h= d.getHours();
+    var m= d.getMinutes();
+    var s= d.getSeconds();
+    var session = "AM";
+
+    if(h > 12){
+        h = h - 12;
+    }
+
+    if (h>=12){
+        session = "PM";
+    }
+
+    h = h < 10 ? "0"+ h : h;
+    m = m < 10 ? "0"+ m : m;
+    s = s < 10 ? "0"+ s : s;
+
+    var time = h + " : " + m + " : " + s +" " + session;
+    document.getElementsByTagName("h1")[0].innerText= time;
+    setTimeout (showTime, 1000);
+
+}
+
+            
+
+            
+</script>
+</html>
